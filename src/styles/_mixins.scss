@@ -1,0 +1,16 @@
+// Mixins
+@mixin transition-all() {
+	transition: all 0.5s;
+}
+
+@mixin background-cover() {
+	background-size: cover;
+}
+
+@mixin serif() {
+	font-family: 'Lora', 'Times New Roman', serif;
+}
+
+@mixin sans-serif () {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

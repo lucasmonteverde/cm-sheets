@@ -1,0 +1,26 @@
+<style>
+	.cms-navbar{
+		position: fixed;
+		right: -10px;
+		top: 70px;
+		z-index: 10;
+	}
+
+	.cms-navbar .btn{
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.btn:hover .glyphicon-refresh { animation: spin 1s infinite linear; }
+
+	@keyframes spin {
+		from { transform: scale(1) rotate(0deg); }
+		to { transform: scale(1) rotate(360deg); }
+	}
+</style>
+
+<nav class="cms-navbar">
+	<a href="?update=1" class="btn btn-primary">
+		<i class="glyphicon glyphicon-refresh"></i>
+	</a>
+</nav>
