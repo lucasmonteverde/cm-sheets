@@ -14,21 +14,27 @@ var renderTemplates = function(req, res, next) {
 		});
 	});*/
 	
-	glob('app/views/**/*.html', {
-		ignore: ['**/templates/*', '**/partials/*']
-	}, function(err, files) {
-		
-		files.map(function( file ) {
-			return file.replace('app/views/', '');
-		}).forEach(function( file ) {
-			req.app.render( file, res.locals, function(err, html) {
-				fs.outputFile('dist/' + file, html);
+	try{
+		glob('app/views/**/*.html', {
+			ignore: ['**/templates/*', '**/partials/*']
+		}, function(err, files) {
+			
+			files.map(function( file ) {
+				return file.replace('app/views/', '');
+			}).forEach(function( file ) {
+				/*req.app.render( file, res && res.locals, function(err, html) {
+					fs.outputFile('dist/' + file, html);
+				});*/
 			});
+			
+			next();
+			
 		});
-		
-		next();
-		
-	});
+
+	} catch(err) {
+		return next(err);
+	}
+
 	
 };
 

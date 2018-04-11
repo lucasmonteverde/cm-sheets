@@ -1,7 +1,7 @@
 'use strict';
 
 var GoogleSpreadsheet = require('google-spreadsheet'),
-	document = new GoogleSpreadsheet('1RX_QPO28kD5rJQNYxFt1l4-1uh0ofCyEUgtFdFAlB9w'),
+	document = new GoogleSpreadsheet('1enUsVbsiFUlyqQUMV8Vo-VsZIL3Fzton57HSUiLqrdU'),
 	Promise = require('bluebird'),
 	fs = require('fs-extra'),
 	_ = require('lodash');
@@ -34,8 +34,22 @@ var proccessConfig = function proccessRows( rows ) {
 	}, {});
 };
 
+
+var proccessCustomRow = function proccessRows( rows ) {
+	return _.reduce(rows, function(o, v) {
+		(o[v.name] || (o[v.name] = []) ).push(v.description);
+		return o;
+	}, {});
+};
+
+var joinRows = function proccessRows( rows ) {
+	return _.map(rows, function(o) {
+		return _.values(o)[0];
+	});
+};
+
 var proccessRows = function proccessRows( rows ) {
-	
+
 	rows = _.map(rows, function( row ) {
 		return _(row)
 			.omit( omitValues )
@@ -49,8 +63,14 @@ var proccessRows = function proccessRows( rows ) {
 			.value();
 	});
 	
-	if( rows.length && rows[0].key && rows[0].value ) {
-		rows = proccessConfig( rows );
+	if( rows.length ) {
+		/*if( rows[0].key && rows[0].value ) {
+			rows = proccessConfig( rows );
+		}*/
+
+		if( Object.keys(rows[0]).length === 1 ) {
+			rows = joinRows( rows );
+		}
 	}
 	
 	return rows;
@@ -62,10 +82,16 @@ var processSheets = function processSheets( index, sheet, content ) {
 	
 	return document
 		.getRowsAsync(index, {
-			offset: 2
+			offset: 1
 		})
 		.then(proccessRows)
 		.then(function( rows ) {
+
+			//custom rules
+			if( sheet.title === 'Especificações - Abas' ) {
+				rows = proccessCustomRow( rows );
+			}
+			
 			content[sheet.title] = rows;
 		});
 	

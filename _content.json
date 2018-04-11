@@ -1,0 +1,319 @@
+{
+  "config": {
+    "site": "CM Sheet",
+    "author": "Lucas Monteverde",
+    "description": "Aenean consequat felis a feugiat dignissim.",
+    "facebook": "https://facebook.com/lucasmonteverde",
+    "github": "https://github.com/lucasmonteverde",
+    "twitter": "https://twitter.com/monteverde13",
+    "logo": "http://cdn.jussi.com.br/img/l_jussi_wpp.png"
+  },
+  "users": [
+    {
+      "studentname": "Alexandra",
+      "gender": "Female",
+      "age": 21,
+      "state": "CA",
+      "group": "English",
+      "activity": "Drama Club",
+      "active": true
+    },
+    {
+      "studentname": "Andrew",
+      "gender": "Male",
+      "age": 20,
+      "state": "SD",
+      "group": "Math",
+      "activity": "Lacrosse",
+      "active": true
+    },
+    {
+      "studentname": "Anna",
+      "gender": "Female",
+      "age": 18,
+      "state": "NC",
+      "group": "English",
+      "activity": "Basketball",
+      "active": true
+    },
+    {
+      "studentname": "Becky",
+      "gender": "Female",
+      "age": 16,
+      "state": "SD",
+      "group": "Art",
+      "activity": "Baseball",
+      "active": true
+    },
+    {
+      "studentname": "Benjamin",
+      "gender": "Male",
+      "age": 20,
+      "state": "WI",
+      "group": "English",
+      "activity": "Basketball",
+      "active": true
+    },
+    {
+      "studentname": "Carl",
+      "gender": "Male",
+      "age": 16,
+      "state": "MD",
+      "group": "Art",
+      "activity": "Debate",
+      "active": false
+    },
+    {
+      "studentname": "Carrie",
+      "gender": "Female",
+      "age": 20,
+      "state": "NE",
+      "group": "English",
+      "activity": "Track & Field",
+      "active": true
+    },
+    {
+      "studentname": "Dorothy",
+      "gender": "Female",
+      "age": 19,
+      "state": "MD",
+      "group": "Math",
+      "activity": "Lacrosse",
+      "active": false
+    },
+    {
+      "studentname": "Dylan",
+      "gender": "Male",
+      "age": 20,
+      "state": "MA",
+      "group": "Math",
+      "activity": "Baseball",
+      "active": true
+    },
+    {
+      "studentname": "Edward",
+      "gender": "Male",
+      "age": 18,
+      "state": "FL",
+      "group": "English",
+      "activity": "Drama Club",
+      "active": true
+    },
+    {
+      "studentname": "Ellen",
+      "gender": "Female",
+      "age": 20,
+      "state": "WI",
+      "group": "Physics",
+      "activity": "Drama Club",
+      "active": false
+    },
+    {
+      "studentname": "Fiona",
+      "gender": "Female",
+      "age": 19,
+      "state": "MA",
+      "group": "Art",
+      "activity": "Debate",
+      "active": false
+    },
+    {
+      "studentname": "John",
+      "gender": "Male",
+      "age": 20,
+      "state": "CA",
+      "group": "Physics",
+      "activity": "Basketball",
+      "active": false
+    },
+    {
+      "studentname": "Jonathan",
+      "gender": "Male",
+      "age": 20,
+      "state": "SC",
+      "group": "Math",
+      "activity": "Debate",
+      "active": false
+    },
+    {
+      "studentname": "Joseph",
+      "gender": "Male",
+      "age": 22,
+      "state": "AK",
+      "group": "English",
+      "activity": "Drama Club",
+      "active": false
+    },
+    {
+      "studentname": "Josephine",
+      "gender": "Female",
+      "age": 20,
+      "state": "NY",
+      "group": "Math",
+      "activity": "Debate",
+      "active": false
+    },
+    {
+      "studentname": "Karen",
+      "gender": "Female",
+      "age": 20,
+      "state": "NH",
+      "group": "English",
+      "activity": "Basketball",
+      "active": true
+    },
+    {
+      "studentname": "Kevin",
+      "gender": "Male",
+      "age": 21,
+      "state": "NE",
+      "group": "Physics",
+      "activity": "Drama Club",
+      "active": false
+    },
+    {
+      "studentname": "Lisa",
+      "gender": "Female",
+      "age": 20,
+      "state": "SC",
+      "group": "Art",
+      "activity": "Lacrosse",
+      "active": true
+    },
+    {
+      "studentname": "Mary",
+      "gender": "Female",
+      "age": 20,
+      "state": "AK",
+      "group": "Physics",
+      "activity": "Track & Field",
+      "active": true
+    },
+    {
+      "studentname": "Maureen",
+      "gender": "Female",
+      "age": 25,
+      "state": "CA",
+      "group": "Physics",
+      "activity": "Basketball",
+      "active": true
+    },
+    {
+      "studentname": "Nick",
+      "gender": "Male",
+      "age": 25,
+      "state": "NY",
+      "group": "Art",
+      "activity": "Baseball",
+      "active": false
+    },
+    {
+      "studentname": "Olivia",
+      "gender": "Female",
+      "age": 20,
+      "state": "NC",
+      "group": "Physics",
+      "activity": "Track & Field",
+      "active": true
+    },
+    {
+      "studentname": "Pamela",
+      "gender": "Female",
+      "age": 21,
+      "state": "RI",
+      "group": "Math",
+      "activity": "Baseball",
+      "active": true
+    },
+    {
+      "studentname": "Patrick",
+      "gender": "Male",
+      "age": 21,
+      "state": "NY",
+      "group": "Art",
+      "activity": "Lacrosse",
+      "active": true
+    },
+    {
+      "studentname": "Robert",
+      "gender": "Male",
+      "age": 24,
+      "state": "CA",
+      "group": "English",
+      "activity": "Track & Field",
+      "active": true
+    },
+    {
+      "studentname": "Sean",
+      "gender": "Male",
+      "age": 23,
+      "state": "NH",
+      "group": "Physics",
+      "activity": "Track & Field",
+      "active": false
+    },
+    {
+      "studentname": "Stacy",
+      "gender": "Female",
+      "age": 23,
+      "state": "NY",
+      "group": "Math",
+      "activity": "Baseball",
+      "active": true
+    },
+    {
+      "studentname": "Thomas",
+      "gender": "Male",
+      "age": 19,
+      "state": "RI",
+      "group": "Art",
+      "activity": "Lacrosse",
+      "active": false
+    },
+    {
+      "studentname": "Will",
+      "gender": "Male",
+      "age": 20,
+      "state": "FL",
+      "group": "Math",
+      "activity": "Debate",
+      "active": true
+    }
+  ],
+  "posts": [
+    {
+      "post-name": "Hello World",
+      "post-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor egestas sodales. Nunc ornare leo in arcu pellentesque auctor. Integer ut mauris in nunc cursus aliquam. Vestibulum vel velit mollis, venenatis tellus vel, posuere diam. Aliquam semper, eros quis tincidunt sagittis, ligula elit posuere tellus, id imperdiet dui ante a urna.",
+      "image": "http://lorempixel.com/image_output/nightlife-q-c-640-480-7.jpg",
+      "date": "02/06/2016 00:00:00"
+    },
+    {
+      "post-name": "Hello Me",
+      "post-content": "Etiam id congue ipsum, nec condimentum nisi. Nullam pretium neque eget nisi malesuada, vel hendrerit tellus lobortis. Nullam sagittis tellus id urna molestie, id porta est fringilla. Curabitur tempor justo quam,",
+      "image": "http://lorempixel.com/image_output/sports-q-c-640-480-8.jpg",
+      "date": "01/06/2016 00:00:00"
+    }
+  ],
+  "pages": [
+    {
+      "name": "Home",
+      "template": "index",
+      "menu": true
+    },
+    {
+      "name": "Contact",
+      "template": "contact",
+      "menu": true
+    },
+    {
+      "name": "Posts",
+      "template": "posts",
+      "menu": true
+    },
+    {
+      "name": "About Us",
+      "template": "about",
+      "menu": true
+    }
+  ]
+}
